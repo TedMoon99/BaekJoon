@@ -9,3 +9,4 @@ while temp >= 60:
         time = 0
 
 print(f"{time} {temp}")
+# 정말로 똑바로 연동이 되었나??

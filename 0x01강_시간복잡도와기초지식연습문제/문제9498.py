@@ -3,3 +3,13 @@
 # 입력 : 첫째 줄에 시험 점수가 주어진다. 0 ≤ 시험점수 ≤ 100
 # 출력 : 시험 성적을 출력한다.
 score = int(input())
+if score >= 90 and score <= 100:
+  print('A')
+elif score >= 80 and score < 90:
+  print('B')
+elif score >= 70 and score < 80:
+  print('C')
+elif score >= 60 and score < 70:
+  print('D')
+else:
+  print('F')

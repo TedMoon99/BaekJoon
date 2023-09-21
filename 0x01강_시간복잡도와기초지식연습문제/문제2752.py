@@ -9,15 +9,9 @@
 
 # 입력 받아오기
 list = []
-x, y, z = map(int, input().split())
-list.append(x)
-list.append(y)
-list.append(z)
-print(list)
-maxValue = max(list)
-maxIndex = list.index(maxValue)
-minValue = min(list)
-minIndex = list.index(minValue)
-list.remove(maxIndex)
-list.remove(maxIndex)
-print(minValue, list.pop(),maxValue)
+numbers = input().split()
+for num in numbers:
+  list.append(int(num))
+list.sort(reverse= True)
+
+print(list.pop(),list.pop(),list.pop())
